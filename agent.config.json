@@ -1,0 +1,14 @@
+{
+  "name": "UOMI Starter Agent",
+  "version": "0.1.0",
+  "description": "A generic starter agent for UOMI, compiled to WebAssembly",
+  "strategy": {
+    "rules": ["stay generic", "safe defaults", "minimal actions"],
+    "allowed_actions": ["read", "write", "call_ai"],
+    "required_skills": ["basic_reasoning", "json_handling"]
+  },
+  "tags": ["starter", "uomi", "agent"],
+  "price": 1,
+  "min_validators": 2,
+  "max_blocks_timeout": 10
+}
