@@ -1,7 +1,18 @@
 # uomi
 ===================================================================================
 Base Camp #1: Deploying to a Testnet:
+...
 
+<button
+    on:click= move |_| {
+        let window = web_sys::window().unwrap();
+        let navigator = window.navigator();
+        let clipboard = navigator.clipboard();
+        let _ = clipboard.write_text("foo bar baz");
+    }
+>
+    copy text
+</button>
 ... // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
