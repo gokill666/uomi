@@ -1,4 +1,4 @@
-**Deploying to a Testnet:**
+**1. DEPLOYING TO A TESTNET:**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -28,7 +28,7 @@ contract BasicMath {
 ```
 
 
-**Control Structures:**
+**2. CONTROL STRUCTURES:**
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -68,7 +68,7 @@ contract ControlStructures {
 }
 ```
 
-**Storage:**
+**3. STORAGE:**
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -131,7 +131,7 @@ contract EmployeeStorage {
 }
 ```
 
-**Arrays:**
+**4. ARRAYS:**
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -206,7 +206,7 @@ contract ArraysExercise {
 }
 ```
 
-**Base Camp #5: Mappings:**
+**5. MAPPINGS:**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
@@ -279,7 +279,7 @@ contract FavoriteRecords {
 }
 ```
 
-**Structs:**
+**6. STRUCTS:**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
@@ -352,7 +352,7 @@ contract GarageManager {
 }
 ```
 
-**Inheritance:**
+**7. INHERITANCE:**
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -443,7 +443,7 @@ contract InheritanceSubmission {
 }
 ```
 
-**Imports:**
+**8. IMPORTS:**
 
 **SillyStringUtils.sol:**
 ```solidity
@@ -464,6 +464,7 @@ library SillyStringUtils {
     }
 }
 ```
+**==========================================**
 
 **Imports.sol:**
 ```solidity
@@ -496,7 +497,7 @@ contract ImportsExercise {
 }
 ```
 
-**Errors:**
+**9. ERRORS:**
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -565,11 +566,11 @@ contract ErrorTriageExercise {
 }
 ```
 
-**The "new" keyword:**
+**10. THE "NEW" KEYWORD:**
 
 **Change string private salt = "value" to any yours in both contracts.**
 
-**AddressBook.sol **
+**AddressBook.sol**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.8;
@@ -618,9 +619,10 @@ contract AddressBook is Ownable(msg.sender) {
     }
 }
 ```
+**=======================================================**
 
+**OTHER CONTRACT:**
 
-**Other contract:**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.8;
@@ -638,7 +640,7 @@ contract AddressBookFactory {
 
 ```
 
-**Minimal Tokens:**
+**11 MINIMAL TOKENS:**
 
 **Change string private salt = "value" to any yours.** 
 ```solidity
@@ -688,7 +690,7 @@ contract UnburnableToken {
 ```
 
 
-**ERC-20 Tokens:**
+**12. ERC-20 TOKENS:**
 
 **Change string private salt = "value" to any yours.**
 ```solidity
@@ -837,7 +839,7 @@ contract WeightedVoting is ERC20 {
 }
 ```
 
-**ERC-721 Tokens:**
+**13. ERC-721 TOKENS:**
 
 **Change string salt = "value" to any yours.** 
 ```solidity
